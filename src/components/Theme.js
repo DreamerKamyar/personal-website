@@ -4,6 +4,8 @@ export const LightTheme = {
   fontFamily: "'Source Sans Pro', sans-serif",
   bodyRgba: "192, 192, 192",
   textRgba: "51, 51, 51",
+  primaryColor: "#800080",
+  secondaryColor: "#6A0DAD",
 };
 
 export const DarkTheme = {
@@ -12,6 +14,8 @@ export const DarkTheme = {
   fontFamily: "'Source Sans Pro', sans-serif",
   bodyRgba: "51, 51, 51",
   textRgba: "192, 192, 192",
+  primaryColor: "#6A0DAD",
+  secondaryColor: "#800080",
 };
 
 const colors = {

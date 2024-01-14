@@ -7,10 +7,11 @@ import route from "./routes";
 function App() {
   return (
     <>
-      <RouterProvider router={route}>
-        <GlobalStyle />
-        <ThemeProvider theme={LightTheme}></ThemeProvider>
-      </RouterProvider>
+      <ThemeProvider theme={LightTheme}>
+        <RouterProvider router={route}>
+          <GlobalStyle />
+        </RouterProvider>
+      </ThemeProvider>
     </>
   );
 }

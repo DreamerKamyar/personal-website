@@ -4,7 +4,7 @@ import AboutPage from "./pages/AboutPage";
 import SkillsPage from "./pages/SkillsPage";
 import ProjectPage from "./pages/ProjectPage";
 import BlogPage from "./pages/BlogPage";
-export const route = createBrowserRouter([
+export const routes = createBrowserRouter([
   {
     path: "/",
     element: <HomePage></HomePage>,
@@ -25,5 +25,6 @@ export const route = createBrowserRouter([
     path: "blog",
     element: <BlogPage></BlogPage>,
   },
+ 
 ]);
-export default route;
+export default routes;

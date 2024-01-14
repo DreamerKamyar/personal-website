@@ -3,3 +3,6 @@
   padding: 0;
   margin: 0;
 }
+.test {
+  transition: 1.5s ease-in-out;
+}
