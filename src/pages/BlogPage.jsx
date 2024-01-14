@@ -1,5 +1,6 @@
+import styled from "styled-components";
 const BlogPage = () => {
-  return <div>BlogPage</div>;
+  return;
 };
 
 export default BlogPage;

@@ -11,13 +11,13 @@ import {
   About,
   Center,
   DarkDiv,
-} from "../components/UI/SubComponent/index";
+} from "../components/MainPage/SubComponent/index";
 import {
   LogoComponent,
   SocialIcons,
   PowerButton,
   Intro,
-} from "../components/UI";
+} from "../components/MainPage";
 import { YinYang } from "../components/AllSVG";
 
 const HomePage = () => {
