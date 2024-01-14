@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const MainContainer = styled.div`
+const SubMainContainer = styled.div`
   background: ${(props) => props.theme.body};
   height: 100vh;
   width: 100vw;
@@ -15,4 +15,4 @@ const MainContainer = styled.div`
     font-weight: 500;
   }
 `;
-export default MainContainer;
+export default SubMainContainer;
