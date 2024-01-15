@@ -12,12 +12,9 @@ import {
   Center,
   DarkDiv,
 } from "../components/MainPage/SubComponent/index";
-import {
-  LogoComponent,
-  SocialIcons,
-  PowerButton,
-  Intro,
-} from "../components/MainPage";
+import { Intro } from "../components/MainPage";
+import { LogoComponent, PowerButton, SocialIcons } from "../components/UI";
+
 import { YinYang } from "../components/AllSVG";
 
 const HomePage = () => {

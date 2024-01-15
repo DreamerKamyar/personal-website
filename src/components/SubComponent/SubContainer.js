@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Container = styled.div`
+const SubContainer = styled.div`
   padding: 2rem;
 `;
-export default Container;
+export default SubContainer;
